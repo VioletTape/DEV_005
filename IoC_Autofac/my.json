@@ -1,0 +1,17 @@
+{
+  "defaultAssembly": "DIBasics",
+  "components": [
+    {
+      "type": "DIBasics.SimpleConnectionStringProvider, DIBasics",
+      "services": [
+        {
+          "type": "DIBasics.IConnectionStringProvider"
+        }
+      ],
+      "parameters": {
+        "connectionString": "cs"
+      },
+      "injectProperties": true
+    }
+  ]
+}
