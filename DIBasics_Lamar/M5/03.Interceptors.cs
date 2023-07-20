@@ -7,7 +7,7 @@ namespace IoC_Lamar.M5;
 [TestFixture]
 public class Interceptors {
     [Test]
-    public void ApllyInterceptors() {
+    public void ApplyInterceptors() {
         var container = new Container(_ => {
                                           _.For<IWidget>().Use<Header>()
                                            .Named("Header")
