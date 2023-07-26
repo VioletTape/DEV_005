@@ -6,7 +6,7 @@ namespace DIBasics_Lamar.M3;
 
 [TestFixture]
 public class AutoRegistration {
-    // see MapExample/07.IoC_flexibility 
+    // смотри M5.MapExample/07.IoC_flexibility 
 
     [Test]
     public void SimpleDiscovery() {

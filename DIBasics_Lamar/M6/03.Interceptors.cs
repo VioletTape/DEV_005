@@ -2,7 +2,7 @@
 using Lamar;
 using NUnit.Framework;
 
-namespace IoC_Lamar.M5;
+namespace IoC_Lamar.M6;
 
 [TestFixture]
 public class Interceptors {
