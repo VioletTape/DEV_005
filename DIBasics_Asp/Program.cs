@@ -15,7 +15,7 @@ builder.Host.UseServiceProviderFactory(
                                                                          x => x.RegisterType<StringBuilder>().AsSelf()
                                                                         )
                                       );
-// or
+// или вот так можно регистрировать позднее
 builder.Host.ConfigureContainer<ContainerBuilder>(x => { x.RegisterType<StringBuilder>().AsSelf(); });
 
 
