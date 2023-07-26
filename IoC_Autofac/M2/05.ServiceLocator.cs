@@ -8,7 +8,7 @@ namespace IoC_Autofac.M2.ServiceLocator
         readonly ISmartTracer _smartTracer;
         readonly INotifier _notifier;
         readonly IViewModelBase _viewModelBase;
-        readonly Something.IRepository _repository;
+        readonly IRepository _repository;
 
         /*
          * Контейнер никогда не должен передаваться в методы
@@ -18,7 +18,7 @@ namespace IoC_Autofac.M2.ServiceLocator
             _smartTracer = container.Resolve<ISmartTracer>();
             _notifier = container.Resolve<INotifier>();
             _viewModelBase = container.Resolve<IViewModelBase>();
-            _repository = container.Resolve<Something.IRepository>();
+            _repository = container.Resolve<IRepository>();
         }
     }
 
